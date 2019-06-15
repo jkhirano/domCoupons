@@ -10,6 +10,8 @@ disclaimer.innerHTML = finePrint;
 
 //2. Target the div elemenet with the id of 'brand1' and update the content to Nabisco.
 
+brand1.innerHTML = 'I got these cheeseburgers man';
+
 //3. Target the div element with the id of 'item1' and update the content with Cheeseburger Oreos. 
 
 //4. Target the div element with the id of 'price1' and update the content to $8.99.
