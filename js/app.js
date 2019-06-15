@@ -56,10 +56,13 @@ var dcElem = document.createElement('button');
 dcElem.className = 'discount';
 dcElem.innerHTML = 'Free T-Shirt and fortune cookie with purchase!';
 var getPanda = document.getElementsByClassName('block1');
-console.log(getPanda);
+// console.log(getPanda);
 getPanda[1].appendChild(dcElem);
 
 //11. Target the div element with the class of 'brand' for the red hoodie section and update the content to Uniqlo.
+
+var hoodie = document.getElementsByClassName('brand');
+hoodie[1].innerHTML = 'Uniqlo';
 
 //12. Target the div element with the class of 'price' for the red hoodie section and update the content to 10,000. 
 
