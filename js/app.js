@@ -33,6 +33,11 @@ brand2.appendChild(itemDiv);
 
 //7. Create a div element with the id of 'price2' and update the content to $34.99. Append this element to the Hendrick's Gin div.
 
+var priceDiv = document.createElement('div');
+priceDiv.id = 'price2';
+priceDiv.innerHTML = '$34.99';
+itemDiv.appendChild(priceDiv);
+
 //8. Create a button element with the id of 'discount3' and give it a content of 50% OFF Axe body soap!. Append this element to the appropriate div class 'block3.
 
 //9. Target the div element with a class of 'item' for the Panda Express section and update the content to Orange Chicken.
