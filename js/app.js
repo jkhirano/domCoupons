@@ -79,7 +79,17 @@ headPhone[1].appendChild(brandName);
 
 //14. Create a div element with the class of 'item' and give it a content of Electronstatic Headphones. Append this element in the headphones section. 
 
+var hoodieDesc = document.createElement('div');
+hoodieDesc.className = 'item';
+hoodieDesc.innerHTML = 'Electronstatic Headphones';
+headPhone[1].appendChild(hoodieDesc);
+
 //15. Create a div element with the class of 'price' and give it a content of $18,000. Append this element in the headphones section.
+
+var hoodiePrice = document.createElement('div');
+hoodiePrice.className = 'price';
+hoodiePrice.innerHTML = '$18,000';
+headPhone[1].appendChild(hoodiePrice);
 
 //16. Create a button element with the class of 'discount' and give it a content of Free Barry Manilow CD with purchase! Append this element in the headphones section.
 
