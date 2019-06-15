@@ -72,6 +72,7 @@ hoodiePrice[1].innerHTML = '10,000';
 //13. Create a div element with the class of 'brand' and give it a content of Hifiman Shangri-La. Append this element in the headphones section. 
 
 var brandName = document.createElement('div');
+brandName.className = 'brand';
 brandName.innerHTML = 'Hifiman Shangri-La';
 var headPhone = document.getElementsByClassName('block3');
 headPhone[1].appendChild(brandName);
