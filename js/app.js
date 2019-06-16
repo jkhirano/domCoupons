@@ -79,17 +79,17 @@ headPhone[1].appendChild(brandName);
 
 //14. Create a div element with the class of 'item' and give it a content of Electronstatic Headphones. Append this element in the headphones section. 
 
-var hoodieDesc = document.createElement('div');
-hoodieDesc.className = 'item';
-hoodieDesc.innerHTML = 'Electronstatic Headphones';
-headPhone[1].appendChild(hoodieDesc);
+var headphoneDesc = document.createElement('div');
+headphoneDesc.className = 'item';
+headphoneDesc.innerHTML = 'Electronstatic Headphones';
+headPhone[1].appendChild(headphoneDesc);
 
 //15. Create a div element with the class of 'price' and give it a content of $18,000. Append this element in the headphones section.
 
-var hoodiePrice = document.createElement('div');
-hoodiePrice.className = 'price';
-hoodiePrice.innerHTML = '$18,000';
-headPhone[1].appendChild(hoodiePrice);
+var headphonePrice = document.createElement('div');
+headphonePrice.className = 'price';
+headphonePrice.innerHTML = '$18,000';
+headPhone[1].appendChild(headphonePrice);
 
 //16. Create a button element with the class of 'discount' and give it a content of Free Barry Manilow CD with purchase! Append this element in the headphones section.
 
@@ -103,6 +103,20 @@ headPhone[1].appendChild(barryCd);
 //div.item =  Unicorn-Head Slippers
 //div.price = $21.99
 // button.discount = Free knee-high tube socks with purchase!
+
+let unicornBrand = document.getElementsByClassName('brand');
+// console.log(unicornBrand);
+unicornBrand[3].innerHTML = 'H&M';
+
+let unicornItem = document.getElementsByClassName('item');
+// console.log(unicornItem);
+unicornItem[3].innerHTML = 'Unicorn-Head Slippers';
+
+let unicornPrice = document.getElementsByClassName('price');
+unicornPrice[3].innerHTML = '$21.99';
+
+let unicornDc = document.getElementsByClassName('discount');
+unicornDc[3].innerHTML = 'Free knee-high tube socks with purchase!';
 
 //18. For the Doritos, change the contents for each element to the following:
 //div.brand = Frito Lay
