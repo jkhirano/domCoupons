@@ -143,5 +143,43 @@ chipsDc[4].innerHTML = '33% OFF any 6 pack Budweiser or Bud Light.';
 //div.price = Priceless
 // button.discount = No Discounts. This cutie is worth every penny!
 
+let pugBrand = document.getElementsByClassName('brand');
+pugBrand[5].innerHTML = 'Any Dog Breeder';
+
+let pugItem = document.getElementsByClassName('item');
+pugItem[5].innerHTML = 'Baby Puggy';
+
+let pugPrice = document.getElementsByClassName('price');
+pugPrice[5].innerHTML = 'Priceless';
+
+let pugDc = document.getElementsByClassName('discount');
+pugDc[5].innerHTML = 'No Discounts. This cute is worth every penny!';
+
 //Final Boss 
 //Create your own product for the last three sections.
+
+// FIRST TRY (CREATE AN IMAGE ELEMENT AND APPEND THE IMAGE. CAN'T FIGURE OUT HOW TO GET THE IMAGE TO APPEND TO THE TOP.):
+// let stickerImage = document.createElement('IMG');
+// stickerImage.setAttribute('src', 'https://images-na.ssl-images-amazon.com/images/I/41yOKJYRdJL.jpg');
+// stickerImage.setAttribute('width', '300');
+// stickerImage.setAttribute('height', '300');
+// let stickerPlace = document.getElementsByClassName('block1');
+// console.log(stickerPlace);
+// stickerPlace[3].appendChild(stickerImage);
+
+// SECOND TRY (GET ELEMENT BY TAG NAME AND REPLACE THE IMAGE):
+// let stickerImage = document.getElementsByTagName('img');
+// let stickerPlace = document.getElementsByClassName('block1');
+// stickerPlace[3].src = 'https://images-na.ssl-images-amazon.com/images/I/41yOKJYRdJL.jpg';
+
+let catSticker = document.getElementsByClassName('brand');
+catSticker[6].innerHTML = 'Amazon';
+
+let catItem = document.getElementsByClassName('item');
+catItem[6].innerHTML = 'Mac Cat Sticker';
+
+let catPrice = document.getElementsByClassName('price');
+catPrice[6].innerHTML = '$8.99';
+
+let catDc = document.getElementsByClassName('discount');
+catDc[6].innerHTML = 'Free catnip with purchase';
