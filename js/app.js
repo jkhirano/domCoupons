@@ -124,6 +124,19 @@ unicornDc[3].innerHTML = 'Free knee-high tube socks with purchase!';
 //div.price = $7.77
 // button.discount = 33% OFF any 6 pack Budweiser or Bud Light.
 
+let chipsBrand = document.getElementsByClassName('brand');
+console.log(chipsBrand);
+chipsBrand[4].innerHTML = 'Frito Lay';
+
+let chipsItem = document.getElementsByClassName('item');
+chipsItem[4].innerHTML = "Poppin' Jalapeno Doritos";
+
+let chipsPrice = document.getElementsByClassName('price');
+chipsPrice[4].innerHTML = '$7.77';
+
+let chipsDc = document.getElementsByClassName('discount');
+chipsDc[4].innerHTML = '33% OFF any 6 pack Budweiser or Bud Light.';
+
 //19. For the Pug, change the contents for each element to the following:
 //div.brand = Any Dog Breeder
 //div.item =  Baby Puggy
