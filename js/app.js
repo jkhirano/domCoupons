@@ -205,3 +205,23 @@ teaDc.className = 'discount';
 teaDc.innerHTML = 'BOGO';
 teaPlace[3].appendChild(teaDc);
 
+let plant = document.createElement('div');
+plant.className = 'brand';
+plant.innerHTML = 'Plant Life';
+var plantPlace = document.getElementsByClassName('block3');
+plantPlace[3].appendChild(plant);
+
+let plantItem = document.createElement('div');
+plantItem.className = 'item';
+plantItem.innerHTML = 'Dev Plant';
+plantPlace[3].appendChild(plantItem);
+
+let plantPrice = document.createElement('div');
+plantPrice.className = 'price';
+plantPrice.innerHTML = '$5.99';
+plantPlace[3].appendChild(plantPrice);
+
+let plantDc = document.createElement('button');
+plantDc.className = 'discount';
+plantDc.innerHTML = 'Extra oxygen fo freee';
+plantPlace[3].appendChild(plantDc);
