@@ -125,7 +125,7 @@ unicornDc[3].innerHTML = 'Free knee-high tube socks with purchase!';
 // button.discount = 33% OFF any 6 pack Budweiser or Bud Light.
 
 let chipsBrand = document.getElementsByClassName('brand');
-console.log(chipsBrand);
+// console.log(chipsBrand);
 chipsBrand[4].innerHTML = 'Frito Lay';
 
 let chipsItem = document.getElementsByClassName('item');
@@ -183,3 +183,25 @@ catPrice[6].innerHTML = '$8.99';
 
 let catDc = document.getElementsByClassName('discount');
 catDc[6].innerHTML = 'Free catnip with purchase';
+
+let tea = document.createElement('div');
+tea.className = 'brand';
+tea.innerHTML = 'Zest Tea';
+var teaPlace = document.getElementsByClassName('block2');
+teaPlace[3].appendChild(tea);
+
+let teaItem = document.createElement('div');
+teaItem.className = 'item';
+teaItem.innerHTML = 'Blue Lady';
+teaPlace[3].appendChild(teaItem);
+
+let teaPrice = document.createElement('div');
+teaPrice.className = 'price';
+teaPrice.innerHTML = '$12.30';
+teaPlace[3].appendChild(teaPrice);
+
+let teaDc = document.createElement('button');
+teaDc.className = 'discount';
+teaDc.innerHTML = 'BOGO';
+teaPlace[3].appendChild(teaDc);
+
